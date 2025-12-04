@@ -49,13 +49,13 @@ Open get_data.py and paste your key into the api_key variable.
 
 
 Run the ETL scripts in this exact order:
-# Step A: Fetch raw data from API and save to CSV
+ Step A: Fetch raw data from API and save to CSV
 ```bash
 python get_data.py
 ```
 
-```bash
-# Step B: Process text into vectors and save to PKL (Pickle)
+ Step B: Process text into vectors and save to PKL (Pickle)
+ ```bash
 python create_vectors.py
 ```
 4. Run the Application
