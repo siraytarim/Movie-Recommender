@@ -65,8 +65,11 @@ python -m streamlit run app.py
 ## 📸 Screenshot
 
 ### 1. Main Interface
-A clean start screen and sidebar filters that greet the user.
-![Maın Page](Imgs/generalview.png)
+<p align="center">
+  A clean start screen and sidebar filters that greet the user.
+  <br><br>
+  <img src="Imgs/generalview.png" width="700" height="450" title="Film Seçimi">
+</p>
 
 ### 2. Movie Selection
 The user selects the movies they have watched (e.g., "Inception" and "The Dark Knight") and specifies a time range of one year.
