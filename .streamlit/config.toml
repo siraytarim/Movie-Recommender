@@ -1,0 +1,12 @@
+[theme]
+# The primary color (Affects buttons, sliders, and selected tags)
+primaryColor = "#8c43f2ff" 
+
+# Background color of the main area
+backgroundColor = "#000000ff"
+
+# Background color of the sidebar
+secondaryBackgroundColor = "#000000ff"
+
+# Text color
+textColor = "#ffffffff"
