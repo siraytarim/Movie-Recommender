@@ -28,7 +28,7 @@ The primary goal of this project was to engineer a complete machine learning pip
 
 ## 🚀 Installation & Setup
 
-Follow these steps to run the project locally on your machine.
+You can follow these steps to run the project locally on your machine.
 
 ## 1. Clone the Repository
 ```bash
@@ -62,3 +62,19 @@ python create_vectors.py
 ```bash
 python -m streamlit run app.py
 ```
+## 📸 Screenshot
+
+### 1. Main Interface
+A clean start screen and sidebar filters that greet the user.
+![Maın Page](Imgs/generalview.png)
+
+### 2. Movie Selection
+The user selects the movies they have watched (e.g., "Inception" and "The Dark Knight") and specifies a time range of one year.
+![Movie Selection](Imgs/movieselection.png)
+
+### 3. Recommendation Results
+The artificial intelligence engine finds films closest to the semantic vectors of the selected films and lists them along with their posters.
+![Recommendation Results](Imgs/recommendedmovies.png)
+
+### 4. Recommended Movies Plot Text
+![Recommended Movies Plots](Imgs/movieplots.png)
