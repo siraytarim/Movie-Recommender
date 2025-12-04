@@ -30,18 +30,18 @@ The primary goal of this project was to engineer a complete machine learning pip
 
 Follow these steps to run the project locally on your machine.
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 ```bash
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
 cd YOUR_REPO_NAME
  ```
 
- 2. Install Dependencies
+ ## 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
  ```
 
-3. Generate the Dataset
+## 3. Generate the Dataset
 
 Since the dataset is not included in the repo (to keep it light), you must generate it using your own API key.
 Get a free API Key from The Movie Database (TMDB).
@@ -58,7 +58,7 @@ python get_data.py
  ```bash
 python create_vectors.py
 ```
-4. Run the Application
+## 4. Run the Application
 ```bash
 python -m streamlit run app.py
 ```
