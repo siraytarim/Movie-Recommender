@@ -68,7 +68,7 @@ python -m streamlit run app.py
 <p align="center">
   A clean start screen and sidebar filters that greet the user.
   <br><br>
-  <img src="Imgs/generalview.png" width="700" height="450" title="Film Seçimi">
+  <img src="Imgs/generalview.png" width="600" height="450" title="Film Seçimi">
 </p>
 
 ### 2. Movie Selection
