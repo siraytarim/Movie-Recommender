@@ -34,21 +34,31 @@ Follow these steps to run the project locally on your machine.
 ```bash
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
 cd YOUR_REPO_NAME
+ ```
 
  2. Install Dependencies
+```bash
 pip install -r requirements.txt
+ ```
 
 3. Generate the Dataset
+```bash
 Since the dataset is not included in the repo (to keep it light), you must generate it using your own API key.
 Get a free API Key from The Movie Database (TMDB).
 Open get_data.py and paste your key into the api_key variable.
+```
 
 Run the ETL scripts in this exact order:
 # Step A: Fetch raw data from API and save to CSV
+```bash
 python get_data.py
+```
 
+```bash
 # Step B: Process text into vectors and save to PKL (Pickle)
 python create_vectors.py
-
+```
 4. Run the Application
+```bash
 python -m streamlit run app.py
+```
