@@ -42,11 +42,11 @@ pip install -r requirements.txt
  ```
 
 3. Generate the Dataset
-```bash
+
 Since the dataset is not included in the repo (to keep it light), you must generate it using your own API key.
 Get a free API Key from The Movie Database (TMDB).
 Open get_data.py and paste your key into the api_key variable.
-```
+
 
 Run the ETL scripts in this exact order:
 # Step A: Fetch raw data from API and save to CSV
