@@ -68,16 +68,25 @@ python -m streamlit run app.py
 <p align="center">
   A clean start screen and sidebar filters that greet the user.
   <br><br>
-  <img src="Imgs/generalview.png" width="600" height="450" title="Film Seçimi">
+  <img src="Imgs/generalview.png" width="600" height="550" title="Film Seçimi">
 </p>
 
 ### 2. Movie Selection
+<p align="center">  
 The user selects the movies they have watched (e.g., "Inception" and "The Dark Knight") and specifies a time range of one year.
-![Movie Selection](Imgs/movieselection.png)
+  <br><br>
+  <img src="Imgs/movieselection.png" width="600" height="550" title="Film Seçimi">
+</p>
 
 ### 3. Recommendation Results
+<p align="center">  
 The artificial intelligence engine finds films closest to the semantic vectors of the selected films and lists them along with their posters.
-![Recommendation Results](Imgs/recommendedmovies.png)
+  <br><br>
+  <img src="Imgs/recommendedmovies.png" width="600" height="550" title="Film Seçimi">
+</p>
 
 ### 4. Recommended Movies Plot Text
-![Recommended Movies Plots](Imgs/movieplots.png)
+<p align="center">  
+  <br><br>
+  <img src="Imgs/movieplots.png" width="600" height="550" title="Film Seçimi">
+</p>
